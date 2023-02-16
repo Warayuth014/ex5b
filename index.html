@@ -58,7 +58,7 @@
 			   return true
 		}
 		function Caculation(t,u){
-				var t1;
+			   var t1;
 			   var u1;
 			   
 			   if(u == "F"){
@@ -72,7 +72,8 @@
 					u1 = "Kelvin";
 			   }
 			   
-			   alert("Temperature is "+t1+" in "+u1);
+			   result = "Temperature is "+t1+" in "+u1;
+			   document.getElementById("result").innerHTML = result;
 		}
 	</script>
 </body>
